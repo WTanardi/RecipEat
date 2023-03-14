@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0dc907d2a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Recipeat | Dashboard</title>
+  </head>
+  <body>
+    <header class="border-b-[1px] border-black">
+      <div class="container flex items-center justify-between py-8 mx-auto">
+        <div class="flex gap-8">
+          <a href="./index.html">
+            <img src="../img/logo.png" alt="Logo" class="w-28" />
+          </a>
+        </div>
+        <div>
+          <ul class="flex items-center gap-8 font-semibold">
+            <a href="">
+              <li>Product</li>
+            </a>
+            <a href="">
+              <li>About</li>
+            </a>
+            <a href="">
+              <li>
+                <i class="fa-solid fa-circle-user fa-2xl"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="flex flex-col justify-center items-center">
+      <div class="bar flex gap-4 my-5">
+        <!-- Search -->
+        <div class="relative">
+          <input
+            class="border border-gray-600 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+            type="search"
+            name="search"
+            placeholder="Search"
+          />
+          <button type="submit" class="absolute right-4 top-2 text-neutral-600">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </button>
+        </div>
+        <!-- Trash -->
+        <button>
+            <i class="fa-solid fa-trash fa-lg text-neutral-600"></i>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
